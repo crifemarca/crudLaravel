@@ -1,6 +1,31 @@
 @extends('layouts.app')
 @section('content')
 
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<div class="row">
+<section class="content">
+
+ <div class="col-sm-4">&nbsp;&nbsp;</div>
+
+ <div class="col-sm-4">
+     <img src="img/logo.png" style="width: 38rem;">
+ </div>
+
+ <div class="col-sm-4">&nbsp;&nbsp;</div>
+
+
+
+</section>
+</div>    
+
+
+
 @if(Auth::user())
 <div class="row">
 <section class="content">
